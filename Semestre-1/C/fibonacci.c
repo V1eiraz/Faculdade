@@ -11,13 +11,13 @@ int main()
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        printf("O %d termo é : %d\n", n1, f);
+        printf("O %d° termo da sequência de fibonacci é : %d\n", i, f);
         f = f + n2;
         n2 = f - n2;
         f = f - n2;
-        f + = n2;
+        f = f+ n2;
         n1++;
     }
-    printf("O %d° termo da sequência de fibonacci é : %d", n, f);
+        printf("O %d° termo da sequência de fibonacci é : %d", n, f);
     return 0;
 }

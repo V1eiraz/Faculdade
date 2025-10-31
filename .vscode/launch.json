@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar e depurar C",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/a.out", // Executável gerado pela task
+      "args": [], // Argumentos (vazio por enquanto)
+      "stopAtEntry": false, // true para parar logo na primeira linha
+      "cwd": "${fileDirname}", // Diretório de execução
+      "environment": [],
+      "externalConsole": false, // true se quiser rodar num terminal externo
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Habilitar a impressão formatada no GDB",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Compilar C com debug" // Task que será executada antes de rodar
+    }
+  ]
+}
