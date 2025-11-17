@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ClienteRepository {
-    private Map<String, Cliente> clientes = new HashMap<>(); // Key: Cliente Name
+    private Map<String, Cliente> clientes = new HashMap<>();
 
     public void adicionarCliente(Cliente cliente) {
         clientes.put(cliente.getNome(), cliente);

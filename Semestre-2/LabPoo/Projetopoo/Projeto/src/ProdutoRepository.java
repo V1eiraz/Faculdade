@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ProdutoRepository {
-    private Map<String, Produto> produtos = new HashMap<>(); // Key: Produto Nome
+    private Map<String, Produto> produtos = new HashMap<>();
 
     public void adicionarProduto(Produto produto) {
         produtos.put(produto.getNome(), produto);

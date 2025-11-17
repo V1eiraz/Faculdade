@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 public class IngredienteRepository {
-    private Map<String, Ingrediente> ingredientes = new HashMap<>(); // Key: Ingrediente Name
+    private Map<String, Ingrediente> ingredientes = new HashMap<>();
 
     public void adicionarIngrediente(Ingrediente ingrediente) {
         ingredientes.put(ingrediente.getNome(), ingrediente);
