@@ -3,5 +3,11 @@
     "string.h": "c",
     "unistd.h": "c",
     "stdlib.h": "c"
-  }
+  },
+  "vscode-pokemon.theme": "forest",
+  "vscode-pokemon.pokemonSize": "nano",
+  "apc.electron": {
+    "opacity": 0.7
+  },
+  "glassit.alpha": 80
 }
