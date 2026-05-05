@@ -1,5 +1,6 @@
 import os
 import time
+import random
 
 def clear_output():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -13,6 +14,16 @@ def quicksort(arr , left , right):
 
 
 def partition(arr , left , right):
+    pos1 = random.randint(left, right)
+    pos2 = random.randint(left, right)
+    pos3 = random.randint(left, right)
+    
+    vals = [(arr[pos1], pos1), (arr[pos2], pos2), (arr[pos3], pos3)]
+    vals.sort(key=lambda x: x[0])
+    median_pos = vals[1][1]
+    
+    arr[median_pos], arr[right] = arr[right], arr[median_pos]
+    
     pivo = arr[right]
     i = left-1
     for j in range(left, right):
@@ -45,23 +56,27 @@ def writearchive(arr):
         print("Erro ao escrever arquivo!")
         return
 
-nums, n = readarchive()
+random.seed(67)
 
 clear_output()
 
-start = time.perf_counter()
-quicksort(nums, 0, n-1)
-end = time.perf_counter()
+tempos_execucao = []
 
-tempo_execucao = end - start
-print(f"Tempo de execução do QuickSort: {tempo_execucao:.6f} segundos")
-
-writearchive(nums)
-
-
-
-
-
-
-
+for _ in range(10):
+    nums, n = readarchive()
+    
+    if n > 0:
+        start = time.perf_counter()
+        quicksort(nums, 0, n-1)
+        end = time.perf_counter()
         
+        tempos_execucao.append(end - start)
+    
+print(f"Tempo de execução: {tempos_execucao}\n")
+if tempos_execucao:
+    media_tempo = sum(tempos_execucao) / len(tempos_execucao)
+    print(f"Média de tempo de execução do QuickSort (10 iterações): {media_tempo:.6f} segundos")
+    
+    writearchive(nums)
+else:
+    print("Nenhum dado processado.")

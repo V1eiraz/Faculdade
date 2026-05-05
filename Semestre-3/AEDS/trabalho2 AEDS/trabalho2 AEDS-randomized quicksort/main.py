@@ -48,15 +48,27 @@ def writearchive(arr):
         print("Erro ao escrever arquivo!")
         return
 
-nums, n = readarchive()
+random.seed(67)
 
 clear_output()
 
-start = time.perf_counter()
-randomized_quicksort(nums, 0, n - 1)
-end = time.perf_counter()
+tempos_execucao = []
 
-tempo_execucao = end - start
-print(f"Tempo de execução do Randomized QuickSort: {tempo_execucao:.6f} segundos")
+for _ in range(10):
+    nums, n = readarchive()
+    
+    if n > 0:
+        start = time.perf_counter()
+        randomized_quicksort(nums, 0, n - 1)
+        end = time.perf_counter()
+        
+        tempos_execucao.append(end - start)
 
-writearchive(nums)
+print(f"Tempo de execução: {tempos_execucao}\n")
+if tempos_execucao:
+    media_tempo = sum(tempos_execucao) / len(tempos_execucao)
+    print(f"Média de tempo de execução do Randomized QuickSort (10 iterações): {media_tempo:.6f} segundos")
+    
+    writearchive(nums)
+else:
+    print("Nenhum dado processado.")
