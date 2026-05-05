@@ -48,13 +48,13 @@ def writearchive(arr):
         print("Erro ao escrever arquivo!")
         return
 
-random.seed(67)
 
 clear_output()
 
 tempos_execucao = []
 
 for _ in range(10):
+    random.seed(67)
     nums, n = readarchive()
     
     if n > 0:
