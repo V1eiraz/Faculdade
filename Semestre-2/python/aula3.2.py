@@ -1,5 +1,0 @@
-senha=input("Informe sua senha:")
-print("o tamanho da senha é ",len(senha))
-print("A senha contém @ ? ",'@'in senha)
-conferir = (len(senha) > 8)
-print("o comprimento é maior que 8 ?", conferir)
