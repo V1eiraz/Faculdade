@@ -1,0 +1,124 @@
+=================================================================
+||        RELATÓRIO DE RESERVAS NEGADAS
+=================================================================
+
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 1
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 2
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 3
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 4
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 5
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 6
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 7
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 8
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 9
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 10
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 11
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 12
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 13
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 14
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 15
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 16
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 17
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 18
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 19
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
+|| Linha: divi -> bh
+|| Data: 2025-12-19   |   Horário: 12:00
+|| Assento solicitado: 20
+|| Motivo: Assento ocupado
+||
+-----------------------------------------------------------------
